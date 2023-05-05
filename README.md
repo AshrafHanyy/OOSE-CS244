@@ -1,5 +1,5 @@
 # OOSE-CS244
-![mokattamlogo](https://user-images.githubusercontent.com/67859541/236508956-c076fcfb-9833-4817-97e1-090865396f0e.png)
+<img src="https://user-images.githubusercontent.com/67859541/236508956-c076fcfb-9833-4817-97e1-090865396f0e.png" alt="Image" style="width: 50%;">
 # MILS School Management System
 ## Introduction
 
