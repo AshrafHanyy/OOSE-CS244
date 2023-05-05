@@ -1,19 +1,28 @@
 # OOSE-CS244
-MILS School Management System
-Introduction
+#MILS School Management System
+##Introduction
+
 The MILS School Management System is a web-based application designed to help manage the day-to-day operations of schools in Cairo, Egypt. The system provides a user-friendly interface that allows administrators, teachers, and parents to access and manage student information, attendance, grades, and other relevant data.
 
-Features
+##Features
 Some of the key features of the system include:
 
 Student enrollment and management
+
 Attendance tracking and reporting
+
 Gradebook management
+
 Parent and teacher communication
+
 Financial management
+
 Course and curriculum management
+
 Report generation
+
 Installation
+
 To install and use the MILS School Management System, follow these steps:
 
 Clone the repository to your local machine
