@@ -1,5 +1,6 @@
 # OOSE-CS244
-# ![mokattamlogo](https://user-images.githubusercontent.com/67859541/236508956-c076fcfb-9833-4817-97e1-090865396f0e.png) MILS School Management System
+![mokattamlogo](https://user-images.githubusercontent.com/67859541/236508956-c076fcfb-9833-4817-97e1-090865396f0e.png)
+# MILS School Management System
 ## Introduction
 
 The MILS School Management System is a web-based application designed to help manage the day-to-day operations of schools in Cairo, Egypt. The system provides a user-friendly interface that allows administrators, teachers, and parents to access and manage student information, attendance, grades, and other relevant data.
