@@ -49,5 +49,7 @@ Create a new branch for your changes
 Make your changes and commit them
 Push your changes to your forked repository
 Submit a pull request
-![new logo-01-01 (1)](https://user-images.githubusercontent.com/67859541/236510270-c6f20038-f107-4917-bede-ee3adaf16e7f.png)
+![new logo-01-01 (1)](https://user-images.githubusercontent.com/67859541/236510645-5618f39a-3f3e-45c4-b2f2-ad532602a9f2.png)
+
+
 
