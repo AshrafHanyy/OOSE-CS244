@@ -5,7 +5,7 @@
 The MILS School Management System is a web-based application designed to help manage the day-to-day operations of schools in Cairo, Egypt. The system provides a user-friendly interface that allows administrators, teachers, and parents to access and manage student information, attendance, grades, and other relevant data.
 
 ## Features
-Some of the key features of the system include:
+### Some of the key features of the system include:
 
 Student enrollment and management
 
@@ -23,7 +23,7 @@ Report generation
 
 ## Installation
 
-To install and use the MILS School Management System, follow these steps:
+### To install and use the MILS School Management System, follow these steps:
 
 Clone the repository to your local machine
 Install the required dependencies using npm install
@@ -33,7 +33,7 @@ Configure the database connection settings in the config.js file
 Start the server using npm start
 
 ## Technologies Used
-The MILS School Management System is built using the following technologies:
+### The MILS School Management System is built using the following technologies:
 
 HTML5
 CSS
@@ -41,8 +41,9 @@ Javascript
 MySQL
 React.js
 Bootstrap
-Contributing
-Contributions to the project are always welcome. To contribute, follow these steps:
+
+## Contributing
+### Contributions to the project are always welcome. To contribute, follow these steps:
 
 Fork the repository
 Create a new branch for your changes
