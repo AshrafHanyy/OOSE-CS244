@@ -1,0 +1,410 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #00408a;
+}
+
+header {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.logo img {
+	height:107px;
+	
+
+	
+}
+
+nav {
+	margin-left: auto;
+    
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+    flex-direction: column;
+}
+
+nav li {
+	margin-left: 20px;
+    
+}
+
+ul li a {
+	color: #333;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+ul :hover {
+	background-color:#002033;  
+    
+}
+ul :hover a{
+    
+	color:white;
+    
+}
+
+.sidebar{
+    width: 210px;
+	height: 50px;
+	
+}
+.slideshow-container {
+	width: 100%;
+	height: 30px;
+	
+	
+	display:flex;
+  }
+  
+  .row h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+}
+ 
+.search {
+	margin-left:700px;
+	display: flex;
+	align-items: center;
+	font-size: 50px;box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+}
+button{
+    border: none;
+    background-color: rgb(255, 255, 255,0.7); 
+    
+    border-radius: 20px;
+    color: black;
+    font-size: 25px;
+    transition: .4s;
+    box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+  }
+  .search button {
+    background-color: #A60A0F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;box-shadow: 0 3px 6px rgb(63, 24, 24,0.3);
+}
+  .Buttons{
+	background-color: #A60A0F;
+	color: white;
+	margin-left: auto;
+    margin-right: 80px;
+	width: 250px;box-shadow: 0 3px 6px rgb(63, 24, 24,0.3);
+	height: 60px;
+  }
+  button .search a{
+	text-decoration: none;
+  }
+  button:hover{
+    transform: scale(1.10);
+	color: white;
+	background-color: #A60A0F;
+    color: #fff;
+  }
+
+.search input {
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+
+
+
+main {
+	padding: 20px;
+}
+
+
+
+.statistics .row {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.box h3 {
+	font-size: 36px;
+	margin: 0;
+}
+
+.box p {
+	margin: 10px 0;
+	color: #999;
+}
+
+.overview .row {
+	display: flex;
+	justify-content: space-between;
+}
+.row hr{
+	width:299%;
+}
+
+.course {
+	background-color: rgb(255, 255, 255,0.7);
+	padding: 20px;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+	flex-basis: calc(33.33% - 20px);
+	width: 300%;
+	margin-bottom: 20px;
+}
+
+.course .student h1:hover{
+	background-color: #A60A0F;
+	padding:  14px;
+	border-radius: 14px;
+	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+	width: 40%;
+	
+	transform: scale(1.10);
+	color: white;
+
+}
+.course .student h1{
+	margin:4px;
+	
+	padding-left:12px;
+	transition: .4s;
+
+	transform: scale(1.10);
+	color: rgb(0, 0, 0);
+
+}
+.Event{
+	
+	background-color: rgb(255, 255, 255,0.7);
+	padding: 20px;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+	flex-basis: calc(33.33% - 20px);
+	width: 100%;
+	margin-bottom: 20px;
+
+	
+}
+.Event p {
+	margin: 10px 0;
+	color: #999;
+}
+.Event h3 {
+	font-size: 24px;
+	margin: 0;
+}
+
+.course img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10%;
+
+}
+
+.course h3 {
+	font-size: 24px;
+	margin: 0;
+}
+.mydiv{
+	margin-left: 110%;
+	display: flex;
+	
+}
+#headers {
+	font-size: 59px;
+	margin: 1%;
+
+	margin-bottom: 4%;
+	
+	
+
+}
+.mydiv img{	
+
+	margin-top:10px;
+padding-right:6px;
+	height:50px;
+	
+}
+.course h1{
+	font-family:cursive;
+	font-size: xx-large;
+	
+}
+.course .student{
+	display:flex;
+	
+}
+.course img {
+	
+	height:20%;
+	position:absolute;
+	right: 10%;
+	width:10%;	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+	
+}
+
+.course ol{
+	font-family:monospace;	font-size: x-large;
+	
+		margin: 10px 0;
+		color: #000000;
+		font-weight: 100;
+		box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+}
+.headersincourse{
+	font-weight: 100;
+}
+.course .courseov{
+	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+	margin: 10px;
+	border-radius: 56px;
+	padding: 4px;
+}
+.course .courseov ul{
+	margin-left: 30px;
+	padding: 4px;	margin-bottom: 7%;
+	
+}
+.course .courseov ul li{
+	margin-left: 70%;
+
+	padding-left: 54px;
+	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+	margin: 5px;
+	
+	
+}
+.course .courseov ul :hover {
+	background-color:#A60A0F;
+    
+}
+.course .progress p {
+	font-size: 12px;
+	margin: 0;
+	position: absolute;
+	top: -20px;
+	right: 0;
+	color: #000000;padding:3px;
+	margin-top: 10px;
+}
+.course p {
+		margin: 10px 0;
+		color: #999;
+		font-weight: 900;padding-left:12px;
+	}
+#ov{
+	margin: 0;
+	padding: 4%;
+	font-weight: 900;
+	color: #424040;
+	font-family:monospace;
+}
+.Event .progress p {
+	font-size: 12px;
+	margin: 0;
+	text-align: right;
+	top: -20px;
+	right: 0;
+	color: #999;
+}
+footer {
+	background-color: #002033;
+	padding: 20px;
+	text-align: center;
+	color: #999;
+	font-size: 12px;
+	margin-top: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 15% 65% 20%;
+    grid-template-rows: 100%;
+
+}
+.lefty{
+    display:flex;
+    flex-direction: column;
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1;
+    align-items: left;
+    padding:25px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+	background-color: white;
+}
+.center{
+    display:flex;
+    flex-direction:row;
+    align-items: left;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row: 1;
+    
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+    background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 50px;
+}
+.righty{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 1;
+    align-items: left;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+    padding:30px;
+	background-color: white;
+}
+.lefty .icons{
+    width:25px;
+    height:25px;
+    margin-right: 10px;
+    
+}
+.object{
+    height: 200px;
+    width: 200px;
+    
+    
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+    
+}
+.object img{
+    width:100px;
+    height:100px;
+}
+
+

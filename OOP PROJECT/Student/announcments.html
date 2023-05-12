@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School E-Learning Announcements</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student E-Learning Announcements</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+      .header {
+        background-color: #1abc9c;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+      .announcement-list {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .announcement-item {
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+        padding: 20px;
+      }
+      .announcement-item h2 {
+        margin: 0;
+        font-size: 1.5em;
+      }
+      .announcement-item p {
+        margin: 10px 0;
+      }
+      .announcement-item .date {
+        font-weight: bold;
+      }
+      footer {
+        background-color: #34495e;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      footer p {
+        margin: 0;
+      }
+      @media (max-width: 768px) {
+        .announcement-list {
+          max-width: 100%;
+        }
+      }
+    </style>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="student-courses.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="Logo.png" alt="Mokatam International Schools logo">
+		</div>
+        
+		<div class="search">
+			<input type="text" placeholder="Search...">
+			<button class="buttonn">Go</button>
+		</div>
+        <button class="Buttons">Welcome, User</button>
+	</header>
+	<main>
+        <div class="container">
+            <div class="lefty">
+                
+                
+                    <br><br>
+                    <button class="sidebar" Action="Teacher.html"><img class="icons" src="task-list.png" >Dashboard</button></li>
+                    <br><br><button class="sidebar"><img class="icons" src="online-education.png">MyCourses</button></li>
+                    <br><br><button class="sidebar"><img class="icons" src="schedule.png">MySchedule</button></li>
+                    <br><br><button class="sidebar"><img class="icons" src="internal.png">Communicate</button></li>
+                    <br><br><button class="sidebar"><img class="icons" src="calendar.png">MyCalendar</button></li>
+                    
+                    
+                <br><br><br><br>
+                <button class="object">Support<img src="social-care.png"></button>
+                
+		
+    </div>
+    <div class="center">
+		<section class="courses">
+            <div class="header">
+                <h1>Student E-Learning Announcements</h1>
+              </div>
+              <div class="announcement-list" id="announcement-list">
+                <h2>Announcements</h2>
+              </div>
+              
+              <script>
+                const announcementList = document.querySelector('#announcement-list');
+          
+                function displayAnnouncements() {
+                  // Clear the current announcements
+                  announcementList.innerHTML = '<h2>Announcements</h2>';
+          
+                  // Get the announcements from local storage
+                  let announcements = JSON.parse(localStorage.getItem('announcements')) || [];
+          
+                  // Display each announcement in the list
+                  announcements.forEach((announcement) => {
+                    const announcementItem = document.createElement('div');
+                    announcementItem.classList.add('announcement-item');
+                    const title = document.createElement('h2');
+                    title.textContent = announcement.title;
+                    const message = document.createElement('p');
+                    message.textContent = announcement.message;
+                    const date = document.createElement('p');
+                    date.classList.add('date');
+                    date.textContent = new Date(announcement.timestamp).toLocaleString();
+                    announcementItem.appendChild(title);
+                    announcementItem.appendChild(message);
+                    announcementItem.appendChild(date);
+                    announcementList.appendChild(announcementItem);
+                  });
+                }
+          
+                displayAnnouncements();
+              </script>
+			</div>
+		</section>
+    
+    <div class="righty">
+		<section class="courses">
+			<h2>Upcoming Events</h2>
+			<div class="row">
+				<div class="Event">
+					
+					<h3>Seniors Graduation Party</h3>
+					<p>Grade 12 Students are about to leave school and go to college, That's the least we can do to celebrate with them.</p>
+					<br><div class="progress">
+						
+						<p>5 Days Left </p>
+					</div>
+				</div>
+				<div class="Event">
+					
+					<h3>6th of October</h3>
+					<p>In the remembrance of the great victory of 6th of October.<br><br><br></p>
+					<div class="progress">
+						
+						<p>9 Days Left </p>
+					</div>
+				</div>
+                
+				<div class="Event">
+					
+					<h3>Labors' Day</h3>
+					<p>A day to celebrate the mighty workers.<br><br><br></p>
+					<div class="progress">
+						
+						<p>14 Day Left </p>
+					</div>
+				</div>
+            </div>
+			</div>
+		</section>
+		</div>
+    </div>
+	</main>
+	<footer>
+		<p>&copy; 2023 Mokatam International Schools. All rights reserved.</p>
+	</footer>
+</body>
+</html>
