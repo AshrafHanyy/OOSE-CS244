@@ -19,7 +19,9 @@ header {
 }
 
 .logo img {
-	height:90px;
+	height:107px;
+	
+
 	
 }
 
@@ -62,7 +64,16 @@ ul :hover a{
 	height: 50px;
 	
 }
+.slideshow-container {
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+	position: relative;
+	display:flex
+  }
+  
 
+ 
 .search {
 	margin-left:700px;
 	display: flex;
@@ -150,6 +161,28 @@ main {
 	width: 300%;
 	margin-bottom: 20px;
 }
+
+.course .student h1:hover{
+	background-color: #A60A0F;
+	padding:  14px;
+	border-radius: 14px;
+	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+	width: 40%;
+	margin-left:42px;
+	transform: scale(1.10);
+	color: white;
+
+}
+.course .student h1{
+	margin:4px;
+	
+
+	transition: .4s;
+
+	transform: scale(1.10);
+	color: rgb(0, 0, 0);
+
+}
 .Event{
 	
 	background-color: rgb(255, 255, 255,0.7);
@@ -174,7 +207,8 @@ main {
 .course img {
 	width: 100%;
 	height: auto;
-	margin-bottom: 10px;
+	margin-bottom: 10%;
+
 }
 
 .course h3 {
@@ -209,6 +243,7 @@ padding-right:6px;
 }
 .course .student{
 	display:flex;
+	
 }
 .course img {
 	
@@ -315,7 +350,7 @@ footer {
     flex-direction:row;
     align-items: left;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 6;
     grid-row: 1;
     
     border-radius: 30px;

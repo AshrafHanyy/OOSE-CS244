@@ -75,8 +75,9 @@ button{
     
     border-radius: 20px;
     color: black;
-    font-size: 25px;
+    font-size: 23px;font-weight: 550;
     transition: .4s;
+	width:4044px;
     box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
   }
   .search button {
@@ -341,6 +342,7 @@ footer {
 .lefty .icons{
     width:25px;
     height:25px;
+	font-weight: 900;
     margin-right: 10px;
     
 }
