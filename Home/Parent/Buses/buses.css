@@ -64,15 +64,45 @@ ul :hover a{
 	height: 50px;
 	
 }
-.slideshow-container {
+
+  
+  /* Table for buses */
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 20px;border: 2px solid #000000; 
+	
+  }
+  
+  
+  th, td {
+	text-align: left;
+	font-size: x-large;
+	font-family:'Times New Roman', Times, serif;
+	padding: 8px;
+	border-color: #000000;
+	border: 1px solid #000000; 
+	
+	border-bottom: 1px solid #ddd;
+  }
+
+  .slideshow-container {
 	width: 100%;
 	height: 30px;
 	overflow: hidden;
 	position: relative;
 	display:flex
   }
+  tr:hover {
+	background-color: #acacac;
+	color: white;
+  }
   
-
+  th {
+	font-weight: bold;
+	color: #444;
+  }
  
 .search {
 	margin-left:700px;
@@ -111,8 +141,8 @@ button{
   }
   button:hover{
     transform: scale(1.10);
-	color: white;
-	background-color: #002033;
+	background-color: #A60A0F;
+    color: #fff;
   }
 
 .search input {
@@ -216,7 +246,7 @@ main {
 	margin: 0;
 }
 .mydiv{
-	margin-left: 110%;
+	margin-left: 45%;
 	display: flex;
 	
 }

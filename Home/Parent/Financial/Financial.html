@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>StudyGy Dashboard</title>
+	<title>Parent Dashboard</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="child.css">
+	<link rel="stylesheet" href="fin.css">
+	
 </head>
 <body>
 	<header>
 		<div class="logo">
 			<img src="Logo.png" alt="Mokatam International Schools logo">
 		</div>
-      
+		<div class="slideshow-container">
+			<img src="/Home/Parent/Childern/ac00.jpg" alt="accreditation image">
+			<img src="/Home/Parent/Childern/ac01.jpg" alt="accreditation image">	<img src="/Home/Parent/Childern/ac05.png" alt="accreditation image">
+			<img src="/Home/Parent/Childern/ac06.png" alt="accreditation image"><img src="/Home/Parent/Childern/ac04.jpg" alt="accreditation image">
+		  </div>
         <button class="Buttons">Welcome, Parent</button>
 	</header>
 	<main>
@@ -22,10 +27,10 @@
                 
                     <br><br>
                     <button class="sidebar" onclick="window.location.href='/Home/Parent/Parent.html'"><img class="icons" src="log-in.png" >Dashboard</button></li>
-                    <br><br><button class="sidebar"onclick="window.location.href='Childern/Childern.html'"><img class="icons" src="avatar.png">Childern</button></li>
-                    <br><br><button class="sidebar"><img class="icons" src="paper-bills.png">Financial</button></li>
-                    <br><br><button class="sidebar"><img class="icons" src="internal.png">Communicate</button></li>
-                    <br><br><button class="sidebar"><img class="icons" src="school-bus.png">Buses</button></li>
+                    <br><br><button class="sidebar"onclick="window.location.href='/Home/Parent/Childern/Childern.html'"><img class="icons" src="student.png">Childern</button></li>
+                    <br><br><button class="sidebar"onclick="window.location.href='/Home/Parent/Financial/Financial.html'"><img class="icons" src="paper-bills.png">Financial</button></li>
+                    <br><br><button class="sidebar"onclick="window.location.href='/Home/Parent/Parent.html'"><img class="icons" src="internal.png">Communicate</button></li>
+                    <br><br><button class="sidebar"onclick="window.location.href='/Home/Parent/Buses/Buses.html'"><img class="icons" src="school-bus.png">Buses</button></li>
                     
                     
                
@@ -36,75 +41,63 @@
 		<section class="courses">
 			
 			<div class="mydiv">
-					<img src="student.png" alt="Mokatam International Schools logo">
-				<h1 id ="headers">Childern</h1>
+					<img src="paper-bills.png" alt="Mokatam International Schools logo">
+				<h1 id ="headers">Financial</h1>
 			
 			
 		</div>
-			<div class="row">
+		<br><br>
+		<div class="row">
 				
-                
-				<div class="course">
-					<div class="student"> 
-					
+			<h1>Currently Enrolled Childern: 2</h1>
+				<hr>
+			<div class="course">
 			
-						<h1>Student Full Name</h1>
-						<img src="avatar.png" alt="Course 1">
-					</div> <p> Student Age: 20</p>
-							<p> Student Class: 2022</p>
-							<p>Financial Status: Paid ✔️</p>
-							<p>GPA: 3.89</p><br>
-						<hr>
-						<div class="courseov">
-						<h3 id="ov">Courses Overview:</h3>
-						<ul>
-						<li><h2>English</h2></li>
-						<li>	<h2>Science</h2></li>
-						<li>	<h2>Math</h2></li>
-						<li><h2>Arabic</h2></li>
-					</ul>
-				</div>
-				</div>
-            </div>
+				<div class="student"> 
+				
+		
+					<h1>1st Child Full Name</h1>
+					<img src="avatar.png" alt="Course 1">
+					
+				</div><br><h3>Financial Status: Incomplete ⌛</h3>
+				<h3> Tution Fees: <span class="money">90,020EGP</span></h3>
+<h3> Amount Paid: <span class="moneyy">30,920EGP</span></h3>
+				<h3> Discount Percentage: 20%</h3>
+				<br>
+					<p> SStudent ID: 233509</p>
+						<p> Student Age: 20</p>
+						<p> Student Class: 2023</p>
+						<p>GPA: 3.89</p><br>
+					
+		
 			</div>
-		</section>
-    
-    <div class="righty">
-		<section class="courses">
-			<h2>Upcoming Events</h2>
-			<div class="row">
-				<div class="Event">
+			<hr>
+			<br>
+			<div class="course">
+				<div class="student"> 
+				
+		
+					<h1>2nd Child Full Name</h1>
+					<img src="avatar.png" alt="Course 1">
 					
-					<h3>Seniors Graduation Party</h3>
-					<p>Grade 12 Students are about to leave school and go to college, That's the least we can do to celebrate with them.</p>
-					<br><div class="progress">
-						
-						<p>5 Days Left </p>
-					</div>
-				</div>
-				<div class="Event">
+				</div><br><h3>Financial Status: Complete ✔️</h3>
+				<h3> Tution Fees: <span class="money">90,020EGP</span></h3>
+<h3> Amount Paid: <span class="moneyy">90,020EGP</span></h3>
+				<h3> Discount Percentage: 15%</h3>
+				<br>
+					<p> Student ID: 233409</p>
+						<p> Student Age: 15</p>
+						<p> Student Class: 2023</p>
+						<p>GPA: 3.2</p><br>
 					
-					<h3>6th of October</h3>
-					<p>In the remembrance of the great victory of 6th of October.<br><br><br></p>
-					<div class="progress">
-						
-						<p>9 Days Left </p>
-					</div>
-				</div>
-                
-				<div class="Event">
-					
-					<h3>Labors' Day</h3>
-					<p>A day to celebrate the mighty workers.<br><br><br></p>
-					<div class="progress">
-						
-						<p>14 Day Left </p>
-					</div>
-				</div>
-            </div>
+		
 			</div>
-		</section>
+			
 		</div>
+			</div>
+		</section>
+    <br>  <br>  <br>  <br><br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+   
     </div>
 	</main>
 	<footer>

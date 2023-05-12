@@ -19,7 +19,9 @@ header {
 }
 
 .logo img {
-	height:90px;
+	height:107px;
+	
+
 	
 }
 
@@ -62,7 +64,19 @@ ul :hover a{
 	height: 50px;
 	
 }
-
+.slideshow-container {
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+	position: relative;
+	display:flex
+  }
+  
+  .row h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+}
+ 
 .search {
 	margin-left:700px;
 	display: flex;
@@ -75,9 +89,8 @@ button{
     
     border-radius: 20px;
     color: black;
-    font-size: 23px;font-weight: 550;
+    font-size: 25px;
     transition: .4s;
-	width:4044px;
     box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
   }
   .search button {
@@ -102,7 +115,8 @@ button{
   button:hover{
     transform: scale(1.10);
 	color: white;
-	background-color: #002033;
+	background-color: #A60A0F;
+    color: #fff;
   }
 
 .search input {
@@ -141,6 +155,9 @@ main {
 	display: flex;
 	justify-content: space-between;
 }
+.row hr{
+	width:299%;
+}
 
 .course {
 	background-color: rgb(255, 255, 255,0.7);
@@ -150,6 +167,28 @@ main {
 	flex-basis: calc(33.33% - 20px);
 	width: 300%;
 	margin-bottom: 20px;
+}
+
+.course .student h1:hover{
+	background-color: #A60A0F;
+	padding:  14px;
+	border-radius: 14px;
+	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+	width: 40%;
+	
+	transform: scale(1.10);
+	color: white;
+
+}
+.course .student h1{
+	margin:4px;
+	
+	padding-left:12px;
+	transition: .4s;
+
+	transform: scale(1.10);
+	color: rgb(0, 0, 0);
+
 }
 .Event{
 	
@@ -175,12 +214,19 @@ main {
 .course img {
 	width: 100%;
 	height: auto;
-	margin-bottom: 10px;
-}
+	margin-bottom: 10%;
 
+}
+.course h3 .money {
+	color: rgb(18, 158, 6); /* Change the color of the money figure to blue */
+  }
+  .course h3 .moneyy {
+	color: rgb(175, 20, 20); /* Change the color of the money figure to blue */
+  }
 .course h3 {
 	font-size: 24px;
-	margin: 0;
+	padding: 0px;
+	margin:11px;
 }
 .mydiv{
 	margin-left: 110%;
@@ -204,18 +250,20 @@ padding-right:6px;
 	
 }
 .course h1{
-	font-family:cursive;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: xx-large;
 	
 }
+
 .course .student{
 	display:flex;
+	
 }
 .course img {
 	
 	height:20%;
 	position:absolute;
-	right: 30%;
+	right: 10%;
 	width:10%;	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
 	
 }
@@ -266,8 +314,8 @@ padding-right:6px;
 }
 .course p {
 		margin: 10px 0;
-		color: #999;
-		font-weight: 900;
+		color: #000000;
+		font-weight: 900;padding-left:12px;
 	}
 #ov{
 	margin: 0;
@@ -316,7 +364,7 @@ footer {
     flex-direction:row;
     align-items: left;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 6;
     grid-row: 1;
     
     border-radius: 30px;
@@ -342,7 +390,6 @@ footer {
 .lefty .icons{
     width:25px;
     height:25px;
-	font-weight: 900;
     margin-right: 10px;
     
 }

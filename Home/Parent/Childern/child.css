@@ -50,8 +50,8 @@ ul li a {
 }
 
 ul :hover {
-	background-color: #A60A0F;
-    color: #fff;
+	background-color:#002033;  
+    
 }
 ul :hover a{
     
@@ -67,9 +67,9 @@ ul :hover a{
 .slideshow-container {
 	width: 100%;
 	height: 30px;
-	overflow: hidden;
-	position: relative;
-	display:flex
+	
+	
+	display:flex;
   }
   
   .row h1{
@@ -115,7 +115,8 @@ button{
   button:hover{
     transform: scale(1.10);
 	color: white;
-	background-color: #002033;
+	background-color: #A60A0F;
+    color: #fff;
   }
 
 .search input {
@@ -154,6 +155,9 @@ main {
 	display: flex;
 	justify-content: space-between;
 }
+.row hr{
+	width:299%;
+}
 
 .course {
 	background-color: rgb(255, 255, 255,0.7);
@@ -171,7 +175,7 @@ main {
 	border-radius: 14px;
 	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
 	width: 40%;
-	margin-left:42px;
+	
 	transform: scale(1.10);
 	color: white;
 
@@ -179,7 +183,7 @@ main {
 .course .student h1{
 	margin:4px;
 	
-
+	padding-left:12px;
 	transition: .4s;
 
 	transform: scale(1.10);
@@ -252,7 +256,7 @@ padding-right:6px;
 	
 	height:20%;
 	position:absolute;
-	right: 30%;
+	right: 10%;
 	width:10%;	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
 	
 }
@@ -304,7 +308,7 @@ padding-right:6px;
 .course p {
 		margin: 10px 0;
 		color: #999;
-		font-weight: 900;
+		font-weight: 900;padding-left:12px;
 	}
 #ov{
 	margin: 0;
