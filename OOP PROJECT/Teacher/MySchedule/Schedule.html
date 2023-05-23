@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MIS-My Schedule</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+    <style>
+		
+
+		h1 {
+			text-align: center;
+			color: #333;
+			margin-top: 50px;
+		}
+
+		table {
+			margin-left: 200px;
+            
+
+			border-collapse: collapse;
+			box-shadow: 0px 0px 20px rgba(196, 5, 5, 0.1);
+			background-color: beige;
+		}
+
+		th, td {
+			padding: 15px;
+			text-align: center;
+			border: 1px solid #ccc;
+		}
+
+		th {
+			background-color: #A60A0F;
+			color: white;
+		}
+
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+
+		.weekend {
+			background-color: #ccc;
+			color: white;
+		}
+
+		.subject {
+			font-weight: bold;
+			color: #333;
+		}
+
+		.time {
+			font-size: 0.8em;
+			color: #666;
+		}
+
+		.location {
+			font-size: 0.8em;
+			color: #999;
+		}
+
+		.notes {
+			font-size: 0.8em;
+			color: #666;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="../Logo.png" alt="Mokatam International Schools logo">
+		</div>
+        <div class="slideshow-container">
+			<img src="../../Parent/ac00.jpg" alt="accreditation image">
+			<img src="../../Parent/ac01.jpg" alt="accreditation image">	<img src="../../Parent/ac05.png" alt="accreditation image">
+			<img src="../../Parent/ac06.png" alt="accreditation image"><img src="../../Parent/ac04.jpg" alt="accreditation image">
+		  </div>
+		<div class="search">
+			<input type="text" placeholder="Search...">
+			<button class="buttonn">Go</button>
+		</div>
+        <button class="Buttons">Welcome, User</button>
+	</header>
+	<main>
+        <div class="container">
+            <div class="lefty">
+                
+                
+                    <br><br>
+                    <button class="sidebar" Action="Teacher.html"><img class="icons" src="../task-list.png"> Dashboard </button></li>
+                    <br><br><button class="sidebar"><img class="icons" src="../online-education.png">MyCourses</button></li>
+                    <br><br><button class="sidebar"><img class="icons" src="../schedule.png">MySchedule</button></li>
+                    <br><br><button class="sidebar"><img class="icons" src="../internal.png">Communicate</button></li>
+                    <br><br><button class="sidebar"><img class="icons" src="../calendar.png">MyCalendar</button></li>
+                    
+                    
+                <br><br><br><br>
+                <button class="object">Support<img src="../social-care.png"></button>
+                
+		
+    </div>
+    <div class="center">
+		<section class="courses">
+			<body>
+                <h1>Student Schedule</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th class="weekend">Saturday</th>
+                            <th class="weekend">Sunday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="time">8:00 - 9:00</td>
+                            <td class="subject">Math</td>
+                            <td class="subject">Science</td>
+                            <td class="subject">History</td>
+                            <td class="subject">English</td>
+                            <td class="subject">Spanish</td>
+                            <td class="weekend"></td>
+                            <td class="weekend"></td>
+                        </tr>
+                        <tr>
+                            <td class="time">9:00 - 10:00</td>
+                            <td class="subject">Math</td>
+                            <td class="subject">Science</td>
+                            <td class="subject">History</td>
+                            <td class="subject">English</td>
+                            <td class="subject">Spanish</td>
+                            <td class="weekend"></td>
+                            <td class="weekend"></td>
+                        </tr>
+                        <tr>
+                            <td class="time">10:00 - 11:00</td>
+                            <td class="subject">Gym</td>
+                            <td class="subject">Art</td>
+                            <td class="subject">Music</td>
+                            <td class="subject">Math</td>
+                            <td class="subject">Science</td>
+                            <td class="weekend"></td>
+                            <td class="weekend"></td>
+                        </tr>
+                        <tr>
+                            <td class="time">11:00 - 12:00</td>
+                            <td class="subject">Gym</td>
+                            <td class="subject">Art</td>
+                            <td class="subject">Music</td>
+                            <td class="subject">Math</td>
+                            <td class="subject">Science</td>
+                            <td class="weekend"></td>
+                            <td class="weekend"></td>
+                        </tr>
+                        <tr>
+                            <td class="time">12:00 - 1:00</td>
+                            <td class="subject">Lunch</td>
+                            <td class="subject">Lunch</td>
+                            <td class="subject">Lunch</td>
+                            <td class="subject">Lunch</td>
+                            <td class="subject">Lunch</td>
+                            <td class="weekend"></td>
+                            <td class="weekend"></td>
+                        </tr>
+                        <tr>
+                            <td class="time">1:00 - 2:00</td>
+                            <td class="subject">English</td>
+                            <td class="subject">Spanish</td>
+                            <td class="subject">Math</td>
+                            <td class="subject">Science</td>
+                            <td class="subject">History</td>
+                            <td class="weekend"></td>
+                            <td class="weekend"></td>
+                        </tr>
+                        <tr>
+                            <td class="time">2:00 - 3:00</td>
+                            <td class="subject">English</td>
+                            <td class="subject">Spanish</td>
+                            <td class="subject">Math</td>
+                            <td class="subject">Science</td>
+                            <td class="subject">History</td>
+                            <td class="weekend"></td>
+                            <td class="weekend"></td>
+                        </tr>
+                        <tr>
+                            <td class="time">3:00 - 4:00</td>
+                            <td class="subject">Science</td>
+                            <td class="subject">History</td>
+                            <td class="subject">English</td>
+                            <td class="subject">Spanish</td>
+                            <td class="subject">Math</td>
+                            <td class="weekend"></td>
+                            <td class="weekend"></td>
+                        </tr>
+                        <tr>
+                            <td class="time">4:00 - 5:00</td>
+                            <td class="subject">Science</td>
+                            <td class="subject">History</td>
+                            <td class="subject">English</td>
+                            <td class="subject">Spanish</td>
+                            <td class="subject">Math</td>
+                            <td class="weekend"></td>
+                            <td class="weekend"></td>
+                        </tr>
+                        <tr>
+                            <td class="time">5:00 - 6:00</td>
+                            <td class="location">Library</td>
+                            <td class="location">Library</td>
+                            <td class="location">Library</td>
+                            <td class="location">Library</td>
+                            <td class="location">Library</td>
+                            <td class="weekend"></td>
+                            <td class="weekend"></td>
+                        </tr>
+                        <tr>
+                            <td class="time">6:00 - 7:00</td>
+                            <td class="notes">Study Group</td>
+                            <td class="notes"></td>
+                            <td class="notes"></td>
+                            <td class="notes"></td>
+                            <td class="notes"></td>
+                            <td class="weekend"></td>
+                            <td class="weekend"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </body>
+			</section>
+			</div>
+		
+    
+    <div class="righty">
+		<section class="courses">
+			<h2>Upcoming Events</h2>
+			<div class="row">
+				<div class="Event">
+					
+					<h3>Seniors Graduation Party</h3>
+					<p>Grade 12 Students are about to leave school and go to college, That's the least we can do to celebrate with them.</p>
+					<br><div class="progress">
+						
+						<p>5 Days Left </p>
+					</div>
+				</div>
+				<div class="Event">
+					
+					<h3>6th of October</h3>
+					<p>In the remembrance of the great victory of 6th of October.<br><br><br></p>
+					<div class="progress">
+						
+						<p>9 Days Left </p>
+					</div>
+				</div>
+                
+				<div class="Event">
+					
+					<h3>Labors' Day</h3>
+					<p>A day to celebrate the mighty workers.<br><br><br></p>
+					<div class="progress">
+						
+						<p>14 Day Left </p>
+					</div>
+				</div>
+            </div>
+			</div>
+		</section>
+		</div>
+    </div>
+	</main>
+	<footer>
+		<p>&copy; 2023 Mokatam International Schools. All rights reserved.</p>
+	</footer>
+</body>
+</html>

@@ -14,7 +14,7 @@
     
       </div>
       
-      <form action="">
+      <form method="post" action="index.php" >
         <img id="logo" height="120" style="max-width: 120px;" src="images/logo.png">
         <div class="input-container">
           <span for="username"><b>Username</b></span>
@@ -30,14 +30,14 @@
           <span for="account-type"><b>Account Type</b></span>
           <select name="account-type" required>
             <option value="" disabled selected>Select Account Type</option>
-            <option value="student">Student</option>
-            <option value="teacher">Teacher</option>
-            <option value="parent">Parent</option>
-            <option value="admin">Admin</option>
+            <option type="student" value="student" name="student">Student</option>
+            <option value="teacher" name="teacher" >Teacher</option>
+            <option value="parent" name="parent">Parent</option>
+            <option value="admin" name="admin">Admin</option>
           </select>
         </div>
 
-        <button type="submit">Login</button>
+        <button type="submit" value="Submit" name="Submit">Login</button>
       </form>
     </div>
   </div>

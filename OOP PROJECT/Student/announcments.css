@@ -13,11 +13,15 @@ header {
 	background-color: beige;
 	display: flex;
 	align-items: center;
+	
 	padding: 10px;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 }
-
+#sss
+{
+	margin-left: 20px;
+}
 .logo img {
 	height:90px;
 }

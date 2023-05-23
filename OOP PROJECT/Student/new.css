@@ -1,68 +1,16 @@
 * {
 	box-sizing: border-box;
 }
-.courses-section {
-	margin: 20px 0;
-  }
-  
-  .courses-section h2 {
-	font-size: 24px;
-	margin-bottom: 20px;
-  }
-  
-  .course {
-	display: flex;
-	flex-direction: row;
-	margin-bottom: 20px;
-	border: 1px solid #ccc;
-	box-shadow: 0px 0px 5px #ccc;
-  }
-  
-  .course-image img {
-	width: 150px;
-	height: auto;
-	object-fit: cover;
-  }
-  
-  .course-details {
-	padding: 20px;
-  }
-  
-  .course-details h3 {
-	font-size: 20px;
-	margin: 0;
-	margin-bottom: 10px;
-  }
-  
-  .course-details p {
-	font-size: 16px;
-	margin: 0;
-	margin-bottom: 20px;
-  }
-  
-  .button {
-	display: inline-block;
-	padding: 10px 20px;
-	background-color: #337ab7;
-	color: #fff;
-	font-size: 16px;
-	text-decoration: none;
-	border-radius: 5px;
-	transition: background-color 0.2s;
-  }
-  
-  .button:hover {
-	background-color: #23527c;
-  }
+
 body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
-	background-color: #A60A0F;
+	background-color: #00408a;
 }
 
 header {
-	background-color: beige;
+	background-color: rgb(255, 255, 255);
 	display: flex;
 	align-items: center;
 	padding: 10px;
@@ -72,6 +20,7 @@ header {
 
 .logo img {
 	height:90px;
+	
 }
 
 nav {
@@ -99,7 +48,7 @@ ul li a {
 }
 
 ul :hover {
-	background-color: #A60A0F;  
+	background-color:#002033;  
     
 }
 ul :hover a{
@@ -109,7 +58,7 @@ ul :hover a{
 }
 
 .sidebar{
-    width: 210px;
+    width: 250px;
 	height: 50px;
 	
 }
@@ -118,7 +67,7 @@ ul :hover a{
 	margin-left:700px;
 	display: flex;
 	align-items: center;
-	font-size: 50px;
+	font-size: 50px;box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
 }
 button{
     border: none;
@@ -136,14 +85,14 @@ button{
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    cursor: pointer;box-shadow: 0 3px 6px rgb(63, 24, 24,0.3);
 }
   .Buttons{
 	background-color: #A60A0F;
 	color: white;
 	margin-left: auto;
     margin-right: 80px;
-	width: 250px;
+	width: 250px;box-shadow: 0 3px 6px rgb(63, 24, 24,0.3);
 	height: 60px;
   }
   button .search a{
@@ -151,8 +100,8 @@ button{
   }
   button:hover{
     transform: scale(1.10);
-	color: white;
 	background-color: #A60A0F;
+    color: #fff;
   }
 
 .search input {
@@ -168,28 +117,14 @@ main {
 	padding: 20px;
 }
 
-h1 {
-	font-weight: 500;
-	margin-bottom: 10px;
-    margin-left: 40px;
-    margin-top: 40px;
-}
+
 
 .statistics .row {
 	display: flex;
 	justify-content: space-between;
 }
 
-.box {
-	background-color: rgb(255, 255, 255,0.7);
-	padding: 20px;
-	border-radius: 4px;
-	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
-	text-align: center;
-	flex-basis: calc(33.33% - 20px);
-    display :flex;
-    margin:20px;
-}
+
 
 .box h3 {
 	font-size: 36px;
@@ -212,7 +147,7 @@ h1 {
 	border-radius: 4px;
 	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
 	flex-basis: calc(33.33% - 20px);
-	width: 100%;
+	width: 1100px;
 	margin-bottom: 20px;
 }
 .Event{
@@ -246,36 +181,106 @@ h1 {
 	font-size: 24px;
 	margin: 0;
 }
+.mydiv{
+	margin-left: 110%;
+	display: flex;
+	
+}
+#headers {
+	font-size: 59px;
+	margin-left: -1100px;
+	margin-bottom: 4%;
+	
+	
 
-.course p {
-	margin: 10px 0;
-	color: #999;
+}
+.mydiv img{	
+
+	margin-top:10px;
+padding-right:6px;
+	height:50px;
+	
+}
+.course h1{
+	font-family:cursive;
+	font-size: xx-large;
+	
+}
+.course .student{
+	display:flex;
+}
+.course img {
+	
+	height:20%;
+	position:absolute;
+	right: 30%;
+	width:10%;	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+	
 }
 
-.course .progress {
-	background-color: #f5f5f5;
-	height: 10px;
-	border-radius: 4px;
-	margin-top: 10px;
+.course ol{
+	font-family:monospace;	font-size: x-large;
+	
+		margin: 10px 0;
+		color: #000000;
+		font-weight: 100;
+		box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+}
+.headersincourse{
+	font-weight: 100;
+}
+.course .courseov{
+	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+	margin: 10px;
+	border-radius: 56px;
+	padding: 4px;
+}
+.course .courseov ul{
+	margin-left: 30px;
+	padding: 4px;	margin-bottom: 7%;
+	
+}
+.course .courseov ul li{
+	margin-left: 70%;
+
+	padding-left: 54px;
+	box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
+	margin: 5px;
+	
+	
+}
+.course .courseov ul :hover {
+	background-color: #A60A0F;
+    color: #fff;
+    
+}
+.slideshow-container {
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
 	position: relative;
-}
-
-.course .progress .bar {
-	background-color: #0077ff;
-	height: 100%;
-	border-radius: 4px;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
+	display:flex
+  }
 .course .progress p {
 	font-size: 12px;
 	margin: 0;
 	position: absolute;
 	top: -20px;
 	right: 0;
-	color: #999;
+	color: #000000;padding:3px;
+	margin-top: 10px;
+}
+.course p {
+		margin: 10px 0;
+		color: #999;
+		font-weight: 900;
+	}
+#ov{
+	margin: 0;
+	padding: 4%;
+	font-weight: 900;
+	color: #424040;
+	font-family:monospace;
 }
 .Event .progress p {
 	font-size: 12px;
@@ -286,7 +291,7 @@ h1 {
 	color: #999;
 }
 footer {
-	background-color: #A60A0F;
+	background-color: #002033;
 	padding: 20px;
 	text-align: center;
 	color: #999;
@@ -310,7 +315,7 @@ footer {
     padding:25px;
     border-radius: 30px;
     box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
-	background-color: beige;
+	background-color: white;
 }
 .center{
     display:flex;
@@ -322,7 +327,7 @@ footer {
     
     border-radius: 30px;
     box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
-    background-color: beige;
+    background-color: white;
 	margin-left: 10px;
 	margin-right: 10px;
 	padding: 50px;
@@ -338,7 +343,7 @@ footer {
     border-radius: 30px;
     box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
     padding:30px;
-	background-color: beige;
+	background-color: white;
 }
 .lefty .icons{
     width:25px;
@@ -366,5 +371,3 @@ footer {
     width:100px;
     height:100px;
 }
-
-

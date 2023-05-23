@@ -109,17 +109,11 @@ ul :hover a{
 }
 
 .sidebar{
-    width: 210px;
+    width: 250px;
 	height: 50px;
 	
 }
 
-.search {
-	margin-left:700px;
-	display: flex;
-	align-items: center;
-	font-size: 50px;
-}
 button{
     border: none;
     background-color: rgb(255, 255, 255,0.7); 
@@ -141,8 +135,9 @@ button{
   .Buttons{
 	background-color: #A60A0F;
 	color: white;
-	margin-left: auto;
-    margin-right: 80px;
+	margin-left: 300px;
+	
+    margin-right: 50px;
 	width: 250px;
 	height: 60px;
   }
@@ -314,18 +309,26 @@ footer {
 }
 .center{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     align-items: left;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row: 1;
-    
+    overflow:scroll;
+	padding: 50px;
+	height: 900px;
     border-radius: 30px;
     box-shadow: 0 2px 4px rgb(63, 24, 24,0.3);
     background-color: beige;
 	margin-left: 10px;
 	margin-right: 10px;
-	padding: 50px;
+	
+	
+	
+}
+.center::-webkit-scrollbar
+{
+display: none;
 }
 .righty{
     display:flex;
@@ -346,6 +349,27 @@ footer {
     margin-right: 10px;
     
 }
+.course img {
+	width: 100px;
+	height: 100px;
+	margin-top: 30px;
+}
+
+.search {
+	
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+.slideshow-container {
+	width: 30%;
+	height: 30px;
+	overflow: hidden;
+	position: relative;
+	display:flex
+  }
 .object{
     height: 200px;
     width: 200px;
@@ -368,3 +392,9 @@ footer {
 }
 
 
+.search input {
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	margin-right: 10px;
+}

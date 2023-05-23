@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MIS-My Schedule</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+    <style>
+        .calendar {
+          background-color: #fff;
+          box-shadow: 0 0 10px rgba(0,0,0,0.1);
+          max-width: 800px;
+          margin-left: 150px;
+          margin-top: 50px;
+          padding: 20px;
+        }
+        .header {
+          background-color: #A60A0F;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        h1 {
+          margin: 0;
+          font-size: 2.5em;
+        }
+        .nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 20px;
+        }
+        .prev-month, .next-month {
+          font-size: 2em;
+          cursor: pointer;
+        }
+        .month {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 20px;
+        }
+        .prev-month, .next-month {
+          font-size: 2em;
+          cursor: pointer;
+        }
+        .month h2 {
+          font-size: 2em;
+          margin: 0;
+        }
+        .weekdays {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+        }
+        .weekdays div {
+          width: calc(100% / 7);
+          text-align: center;
+          font-weight: bold;
+        }
+        .days {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .days div {
+          width: calc(100% / 7);
+          text-align: center;
+          padding: 10px;
+          margin-bottom: 10px;
+          background-color: #eee;
+          color: #555;
+          box-shadow: 0 0 5px rgba(0,0,0,0.1);
+          position: relative;
+        }
+        .days div:hover {
+          background-color: #A60A0F;
+          color: #fff;
+          cursor: pointer;
+        }
+        .days .today {
+          background-color: #A60A0F;
+          color: #fff;
+        }
+        .days .event {
+          background-color: #e74c3c;
+          color: #fff;
+        }
+        .days .event:before {
+          content: " ";
+          position: absolute;
+          top: -10px;
+          right: 5px;
+          border: 5px solid transparent;
+          border-bottom-color: #e74c3c;
+        }
+        .days .event:after {
+          content: " ";
+          position: absolute;
+          bottom: -10px;
+          right: 5px;
+          border: 5px solid transparent;
+          border-top-color: #e74c3c;
+        }
+        footer {
+          background-color: #34495e;
+          color: #fff;
+          padding: 10px;
+          text-align: center;
+        }
+       
+        @media (max-width: 768px) {
+          .calendar {
+            max-width: 100%;
+            margin-bottom: 0;
+          }
+        }
+      </style>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="../Logo.png" alt="Mokatam International Schools logo">
+		</div>
+        <div class="slideshow-container">
+			<img src="../../Parent/ac00.jpg" alt="accreditation image">
+			<img src="../../Parent/ac01.jpg" alt="accreditation image">	<img src="../../Parent/ac05.png" alt="accreditation image">
+			<img src="../../Parent/ac06.png" alt="accreditation image"><img src="../../Parent/ac04.jpg" alt="accreditation image">
+		  </div>
+		<div class="search">
+			<input type="text" placeholder="Search...">
+			<button class="buttonn">Go</button>
+		</div>
+        <button class="Buttons">Welcome, User</button>
+	</header>
+	<main>
+        <div class="container">
+            <div class="lefty">
+                
+                
+                    <br><br>
+                    <button class="sidebar" Action="Teacher.html"><img class="icons" src="../task-list.png"> Dashboard </button></li>
+                    <br><br><button class="sidebar"><img class="icons" src="../online-education.png">MyCourses</button></li>
+                    <br><br><button class="sidebar"><img class="icons" src="../schedule.png">MySchedule</button></li>
+                    <br><br><button class="sidebar"><img class="icons" src="../internal.png">Communicate</button></li>
+                    <br><br><button class="sidebar"><img class="icons" src="../calendar.png">MyCalendar</button></li>
+                    
+                    
+                <br><br><br><br>
+                <button class="object">Support<img src="../social-care.png"></button>
+                
+		
+    </div>
+    <div class="center">
+		
+			<section class="courses">
+                <div class="calendar">
+                    <div class="header">
+                      <h1>School E-Learning Calendar</h1>
+                    </div>
+                    <div class="nav">
+                      <div class="prev-month">&#10094;</div>
+                      <div class="month"><h2></h2></div>
+                      <div class="next-month">&#10095;</div>
+                    </div>
+                    <div class="weekdays">
+                      <div>Sun</div>
+                      <div>Mon</div>
+                      <div>Tue</div>
+                      <div>Wed</div>
+                      <div>Thu</div>
+                      <div>Fri</div>
+                      <div>Sat</div>
+                    </div>
+                    <div class="days">
+                    </div>
+                   
+			</section>
+			</div>
+		
+    
+    <div class="righty">
+		<section class="courses">
+			<h2>Upcoming Events</h2>
+			<div class="row">
+				<div class="Event">
+					
+					<h3>Seniors Graduation Party</h3>
+					<p>Grade 12 Students are about to leave school and go to college, That's the least we can do to celebrate with them.</p>
+					<br><div class="progress">
+						
+						<p>5 Days Left </p>
+					</div>
+				</div>
+				<div class="Event">
+					
+					<h3>6th of October</h3>
+					<p>In the remembrance of the great victory of 6th of October.<br><br><br></p>
+					<div class="progress">
+						
+						<p>9 Days Left </p>
+					</div>
+				</div>
+                
+				<div class="Event">
+					
+					<h3>Labors' Day</h3>
+					<p>A day to celebrate the mighty workers.<br><br><br></p>
+					<div class="progress">
+						
+						<p>14 Day Left </p>
+					</div>
+				</div>
+            </div>
+			</div>
+		</section>
+		</div>
+    </div>
+	</main>
+	<footer>
+		<p>&copy; 2023 Mokatam International Schools. All rights reserved.</p>
+	</footer>
+</body>
+<script>
+    const header = document.querySelector('.header');
+    const monthTitle = document.querySelector('.month h2');
+    const daysContainer = document.querySelector('.days');
+    const prevMonthBtn = document.querySelector('.prev-month');
+    const nextMonthBtn = document.querySelector('.next-month');
+
+    let currentDate = new Date();
+
+    function displayMonth() {
+      // Display the current month and year in the header
+      const options = { month: 'long', year: 'numeric' };
+      monthTitle.textContent = currentDate.toLocaleDateString('en-US', options);
+
+      // Clear the days container
+      daysContainer.innerHTML = '';
+
+      // Get the number of days in the current month
+      const year = currentDate.getFullYear();
+      const month = currentDate.getMonth() + 1;
+      const daysInMonth = new Date(year, month, 0).getDate();
+
+      // Get the day of the week the month starts on
+      const firstDayOfWeek = new Date(year, month - 1, 1).getDay();
+
+      // Add empty cells for days before the first day of the month
+      for (let i = 0; i < firstDayOfWeek; i++) {
+        const emptyCell = document.createElement('div');
+        daysContainer.appendChild(emptyCell);
+      }
+
+      // Add cells for each day in the month
+      for (let i = 1; i <= daysInMonth; i++) {
+        const dayCell = document.createElement('div');
+        dayCell.textContent = i;
+        if (i === currentDate.getDate() && currentDate.getMonth() === new Date().getMonth() && currentDate.getFullYear() === new Date().getFullYear()) {
+          dayCell.classList.add('today');
+        }
+        daysContainer.appendChild(dayCell);
+      }
+    }
+
+    displayMonth();
+
+    // Add event listeners to previous and next month buttons
+    prevMonthBtn.addEventListener('click', () => {
+      currentDate.setMonth(currentDate.getMonth() - 1);
+      displayMonth();
+    });
+
+    nextMonthBtn.addEventListener('click', () => {
+      currentDate.setMonth(currentDate.getMonth() + 1);
+      displayMonth();
+    });
+  </script>
+</html>
